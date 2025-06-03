@@ -2,50 +2,110 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MACON PRO 41</title>
-    <style>
-        body { font-family: Arial, sans-serif; background: #f7f7f7; margin: 0; padding: 0; color: #333; }
-        header { background: #1f1f1f; color: #fff; padding: 40px 20px; text-align: center; }
-        header h1 { margin: 0; font-size: 2.5em; }
-        .container { padding: 40px 20px; max-width: 1000px; margin: auto; background: #fff; }
-        section { margin-bottom: 30px; }
-        h2 { color: #1f1f1f; border-bottom: 2px solid #ccc; padding-bottom: 5px; }
-        .contact { background: #f0f0f0; padding: 20px; border-radius: 5px; }
-        footer { text-align: center; background: #1f1f1f; color: #fff; padding: 20px; }
-    </style>
+  <meta charset="UTF-8">
+  <title>LES BISTROTIERS</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fefefe;
+      color: #333;
+    }
+    header {
+      background-color: #3e3e3e;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    header p {
+      margin-top: 10px;
+    }
+    section {
+      padding: 50px 20px;
+      background-color: #ffffff;
+      border-bottom: 1px solid #ddd;
+    }
+    section:nth-child(even) {
+      background-color: #f4f4f4;
+    }
+    .content {
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      align-items: center;
+    }
+    .content img {
+      width: 45%;
+      border-radius: 10px;
+    }
+    .content div {
+      width: 50%;
+    }
+    .content h2 {
+      margin-top: 0;
+      color: #3e3e3e;
+    }
+    .map {
+      padding: 40px 20px;
+      text-align: center;
+      background-color: #eee;
+    }
+    .map iframe {
+      width: 90%;
+      height: 250px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    footer {
+      background-color: #3e3e3e;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>MACON PRO 41</h1>
-        <p>Travaux de maçonnerie générale et gros œuvre de bâtiment</p>
-    </header>
-    <div class="container">
-        <section>
-            <h2>À propos</h2>
-            <p>MACON PRO 41 est spécialisée dans les travaux de construction générale, offrant des solutions professionnelles dans le domaine du gros œuvre et de la maçonnerie spécialisée.</p>
-        </section>
-        <section>
-            <h2>Coordonnées</h2>
-            <div class="contact">
-                <p><strong>Email :</strong> contact@maconpro41.shop</p>
-                <p><strong>Téléphone :</strong> +33 7 44 14 95 05</p>
-                <p><strong>Adresse :</strong> 20 Rue Mirabeau, 41000 Blois, France</p>
-            </div>
-        </section>
-        <section>
-            <h2>Nos Services</h2>
-            <ul>
-                <li>Travaux de maçonnerie générale</li>
-                <li>Construction gros œuvre</li>
-                <li>Rénovation de bâtiments</li>
-                <li>Services spécialisés en maçonnerie</li>
-            </ul>
-        </section>
+
+<header>
+  <h1>LES BISTROTIERS</h1>
+  <p>Email: contact@lesbistrotiers.shop | Téléphone: +33 673 942 980</p>
+</header>
+
+<section>
+  <div class="content">
+    <div>
+      <h2>Notre Vision</h2>
+      <p>Chez LES BISTROTIERS, nous croyons que chaque moment partagé autour d’un verre ou d’un bon plat peut être magique. Notre société met un point d'honneur à valoriser les lieux de vie et les établissements conviviaux à Blois, avec une touche d’authenticité et de modernité.</p>
     </div>
-    <footer>
-        &copy; 2025 MACON PRO 41 - Tous droits réservés
-    </footer>
+    <img src="https://images.unsplash.com/photo-1541542684-4f40c1eb1a1c?q=80&w=2670" alt="Bistrot">
+  </div>
+</section>
+
+<section>
+  <div class="content">
+    <img src="https://images.unsplash.com/photo-1525610553991-2bede1a236e2?q=80&w=2670" alt="Bar">
+    <div>
+      <h2>Nos Activités</h2>
+      <p>Nous nous spécialisons dans les débits de boissons, la gestion d’établissements chaleureux, et les services annexes. Notre expertise inclut également les activités de siège social, ce qui nous permet d’unifier vision stratégique et développement local concret.</p>
+    </div>
+  </div>
+</section>
+
+<div class="map">
+  <h3>📍 Localisation</h3>
+  <p>Blois, France</p>
+  <iframe src="https://maps.google.com/maps?q=Blois%20France&t=&z=13&ie=UTF8&iwloc=&output=embed" loading="lazy"></iframe>
+</div>
+
+<footer>
+  <p>&copy; 2025 LES BISTROTIERS. Tous droits réservés.</p>
+</footer>
+
 </body>
 </html>
